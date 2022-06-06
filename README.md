@@ -2,7 +2,8 @@
 
 The main objective of this project was to predict the number of shares in social networks (popularity). To prepare the data for training I have performed these steps: (note: each of the below mentioned phase is explained in detail in each snippet precisely).
 
-•	First phase: Data Cleaning
+•	First phase: -
+  <b> Data Cleaning </b>
 Firstly, I tried to load the dataset where I had to deal with some noise because the dataset could not be loaded perfectly with the first try as it contained an extra column. After fixing this issue, I perfeclty loaded the dataset. I noticed that the dataset contained several types of noises like null, 'nan' and NAN values which I surely removed all of them. I also dropped every null value in those rows of the dataset which had at least one missing value. The other type of problem that i dealt with was interesting as different features had Object data types, other had String type instead of integers, and nan values. Since, a machine learning algorithm cannot understand the Object data types, I converted the type of the numerical features into integers. After making sure that this conversion went well I proceeded next with the separation of the features into specific groups: numerical features (discrete and continuous) and categorical features. I computed the total number of each group of the features and the length of each one of them to have a better overview of them. I also dropped the unimportant features such as ‘url’ as it did not give any important information for our target.
 
 •	Second phase: Data Preprocessing
