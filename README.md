@@ -1,4 +1,4 @@
-# Machine-Learning
+# Predict number of shares in Social Networks
 
 The main objective of this project was to <i> <b>  predict the number of shares in social networks (popularity)</b> </i>. To prepare the data for training I have performed these steps: (note: each of the below mentioned phase is explained in detail in each snippet precisely).
 
